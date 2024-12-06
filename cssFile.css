@@ -1,0 +1,67 @@
+@import 'https://fonts.googleapis.com/css?family=Anton';
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/19/10/50/bokeh-1209432_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #1db954;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: Anton;
+  margin-bottom: -200px;
+  margin-top: -10px;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+  font-family: Anton;
+}
+#googleMap {
+  height: 760px;
+  width: 900px;
+  top: 260px;
+  border-radius: 25px;
+}
+p {
+  margin-top: -15px;
+  color: white;
+  display: -webkit-box;
+  -webkit-line-clamp: 10;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+li {
+  font-size: 15px;
+  color: white;
+  margin: 10px;
+}
+#searchResults {
+  background: rgba(51, 170, 51, 0.1);
+  width: 550px;
+  height: 210px;
+  margin-left: 925px;
+  margin-top: -520px;
+  border-radius: 25px;
+  padding-bottom: 5px;
+}
+#wikiInfo {
+  background: rgba(51, 170, 51, 0.1);
+  width: 550px;
+  height: 280px;
+  margin-left: 925px;
+  margin-top: -20px;
+  border-radius: 25px;
+}
+#satellite-image {
+  background: rgba(51, 170, 51, 0.1);
+  width: 550px;
+  height: 280px;
+  margin-left: 925px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
